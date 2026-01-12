@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#File: codeTester
+#Author: Elton Ho
+#Purpose: Tests count against the exCount with test cases of file names 
+#starting with test in the current directory and prints the difference between 
+#the outputs.
+
+listTest=$(ls test*)
+
+for testFile in $listTest; do
+	count <${testFile} >myOut 2>myErr
+	echo $? >>myOut
+
+	exCount <${testFile} >exOut 2>exErr
+	echo $? >>exOut
+
+	echo "Test File ${testFile}"
+	echo "stdout diffs:"
+	diff myOut exOut
+	echo "stderr diffs:"
+	diff myErr exErr
+done

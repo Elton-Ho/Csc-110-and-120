@@ -1,0 +1,3 @@
+	
+spellcheck : hash.c spellcheck.c
+	gcc hash.c spellcheck.c -o spellcheck spellcheck.o : utils.h spellcheck.h spellcheck.c
