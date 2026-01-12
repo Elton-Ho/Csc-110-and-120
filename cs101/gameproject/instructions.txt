@@ -1,0 +1,15 @@
+ ____________________________________________________________________________
+|  ________________________________________________________________________  |
+| |                                                                        | |
+| | Somewhere nearby is colossal cave, where others have found fortunes in | |
+| | treasure and gold, though it is rumoured that some who enter are never | |
+| | seen again. Magic is said to work in the cave. I will be your eyes     | |
+| | and hands. Direct me with commands of 1 or 2 words. I should warn      | |
+| | you that I look at only the first four letters of each word, so you'll | |
+| | have to enter "NORTHEAST" as "NE" to distinguish it from "NORTH".      | |
+| | (Should you get stuck, type "HELP" for some general hints. For infor-  | |
+| | mation on how to end your adveture, etc., type "INFO".)                | |
+| |                                                                        | |
+| |                             *GOOD LUCK!*                               | |
+| |________________________________________________________________________| |
+|____________________________________________________________________________|
